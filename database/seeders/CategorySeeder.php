@@ -29,7 +29,8 @@ class CategorySeeder extends Seeder
         ];
 
         foreach ($categories as $category) {
-            Category::firstOrCreate(
+            Category::firstOrCreate( 
+                //:: atajo a propiedades y métodos estáticos de una clase
                 ['name' => $category['name']],
                 ['description' => $category['description']]
             );

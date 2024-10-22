@@ -12,8 +12,8 @@ class Category extends Model
     |--------------------------------------------------------------------------
     */
 
-     protected $table = 'categories';
-     protected $primaryKey = 'id';
+    // protected $table = 'categories';
+    // protected $primaryKey = 'id';
     // public $timestamps = false;
     // protected $guarded = []; // carga datos uno por uno
 
